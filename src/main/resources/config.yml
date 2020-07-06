@@ -1,0 +1,10 @@
+blocked-domains:
+  - '.nl'
+  - '.com'
+curse_words:
+  - 'kutjes'
+  - 'hoertje'
+  - 'kanker'
+curse_bypass:
+  kanker:
+    - 'kankerhond'

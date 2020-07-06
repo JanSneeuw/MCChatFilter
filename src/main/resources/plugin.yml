@@ -1,0 +1,6 @@
+name: SimpleChatFilter
+version: ${project.version}
+main: jansneeuw.vdzwet.dev.simplechatfilter.SimpleChatFilter
+authors: [JanSneeuw]
+description: Simple Chat Filter Plugin
+website: sven.vdzwet.dev
