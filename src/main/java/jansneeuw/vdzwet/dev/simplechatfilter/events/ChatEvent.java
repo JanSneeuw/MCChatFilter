@@ -20,7 +20,7 @@ public class ChatEvent implements Listener {
     public void onChat(AsyncPlayerChatEvent event){
         //Check for ads
         AdCheck adCheck = new AdCheck(plugin);
-        if (adCheck.messageContainsAd(event.getMessage()) && !event.getPlayer().hasPermission("firekd.bypassadfilter")){
+        if (adCheck.messageContainsAd(event.getMessage()) && !event.getPlayer().hasPermission("SCF.BYPASSADFILTER")){
             event.setCancelled(true);
             return;
         }
@@ -34,7 +34,7 @@ public class ChatEvent implements Listener {
 
         //Check for Ips
         IpCheck ipCheck = new IpCheck();
-        if (ipCheck.messageContainsIp(event.getMessage()) && !event.getPlayer().hasPermission("firekd.bypassipfilter")){
+        if (ipCheck.messageContainsIp(event.getMessage()) && !event.getPlayer().hasPermission("SCF.BYPASSIPFILTER")){
             event.setCancelled(true);
             return;
         }

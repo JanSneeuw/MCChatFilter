@@ -2,9 +2,8 @@ blocked-domains:
   - '.nl'
   - '.com'
 curse_words:
-  - 'kutjes'
-  - 'hoertje'
-  - 'kanker'
+  - 'dick'
+  - 'ass'
 curse_bypass:
-  kanker:
-    - 'kankerhond'
+  ass:
+    - 'assassin'
